@@ -4,5 +4,6 @@
         ".vscode{,/**}"
     ],
     "appService.defaultWebAppToDeploy": "/subscriptions/dac9c0c8-36d1-4ced-b28d-0e5a3533debe/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/SexyTransitAlliance",
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "compile-hero.disable-compile-files-on-did-save-code": false
 }

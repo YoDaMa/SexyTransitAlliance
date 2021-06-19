@@ -3,3 +3,8 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  div.container
+    fieldset
+      form(action="/", method="post")
+        input(type="text", name='city', class='ghost-input', placeholder='Enter a City', required)
+        input(type="submit", class='ghost-button', value='Get Weather')
